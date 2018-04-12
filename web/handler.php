@@ -22,6 +22,7 @@ $subject = 'Заказ от '.date('d.m.Y').'г.';
 $admin_mail = 'eu.bogomaz@gmail.com';
 // Email заказчика (как fallback - ваш же Email)
 $to = !empty($userdata['user_mail']) ? $userdata['user_mail'] : $admin_mail;
+$to2 = 'y.bohomaz@gmail.com';
 
 // Формируем таблицу с заказанными товарами
 $tbl = '<table style="width: 100%; border-collapse: collapse;">
@@ -84,11 +85,13 @@ $from = new SendGrid\Email(null, $admin_mail);
 $to = new SendGrid\Email(null, $to);
 $content = new SendGrid\Content("text/html", $body);
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
+$mail2 = new SendGrid\Mail($from, $subject, $to2, $content);
 
 $apiKey = getenv('SENDGRID_API_KEY');
 $sg = new \SendGrid($apiKey);
 
 $response = $sg->client->mail()->send()->post($mail);
+$response2 = $sg->client->mail()->send()->post($mail2);
 // echo $response->statusCode();
 // echo $response->headers();
 // echo $response->body();
