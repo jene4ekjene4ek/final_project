@@ -186,7 +186,7 @@ $(function(){
           <img src="img/bagira.png" class="aligner" alt="">
           <h3 class="item_title">Багира Булат</h3>
           <p>Цена: <span class="item_price aligner">50</span>грн/кг</p>
-          <button class="add_item button_grey_small aligner" data-id="4" data-title="Багира Булат" data-price="50" data-img="https://www.dropbox.com/s/dlmlrfjno99xnyp/bagira.png?dl=0" data-count="100500">Добавить в корзину</button>
+          <button class="add_item button_grey_small aligner" data-id="4" data-title="Багира Булат" data-price="50" data-img="img/bagira.png" data-count="100500">Добавить в корзину</button>
           <p>
             <button class="open button_bordo_small">Заказать</button>
           </p>
@@ -195,7 +195,7 @@ $(function(){
           <img src="img/general.png"  alt="" >
           <h3 class="item_title">Генеральская Желтая</h3>
           <p>Цена: <span class="item_price aligner">47</span>грн/кг</p>
-          <button class="add_item button_grey_small aligner" data-id="5" data-title="Генеральская Желтая" data-price="47" data-img="https://www.dropbox.com/s/w9hevdnqgx6l3fd/general.png?dl=0">Добавить в корзину</button>
+          <button class="add_item button_grey_small aligner" data-id="5" data-title="Генеральская Желтая" data-price="47" data-img="img/general.png">Добавить в корзину</button>
           <p>
             <button class="open button_bordo_small">Заказать</button>
           </p>
@@ -204,7 +204,7 @@ $(function(){
           <img src="img/napoleon.png" class="aligner" alt="">
           <h3 class="item_title">Наполеон</h3>
           <p>Цена: <span class="item_price">47</span>грн/кг</p>
-          <button class="add_item button_grey_small aligner" data-id="6" data-title="Наполеон" data-price="47" data-img="https://www.dropbox.com/s/svefsyjq9gk440q/napoleon.png?dl=0g">Добавить в корзину</button>
+          <button class="add_item button_grey_small aligner" data-id="6" data-title="Наполеон" data-price="47" data-img="img/napoleon.png">Добавить в корзину</button>
           <p>
             <button class="open button_bordo_small aligner">Заказать</button>
           </p>
